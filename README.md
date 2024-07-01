@@ -37,7 +37,7 @@ Follow these steps to get the project running on your local machine:
 
 1. **Clone the repository**
    ```sh
-   git clone <your_repository_url>
+   git clone https://github.com/BlackBenE/viral_post.git
    
 2. **Navigate to the project directory**
    ```sh
