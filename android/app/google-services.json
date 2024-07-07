@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461373372989",
+    "project_id": "viralpost-b5d39",
+    "storage_bucket": "viralpost-b5d39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461373372989:android:daa3317e0314347d318854",
+        "android_client_info": {
+          "package_name": "com.example.viral_post"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRevUIG6G_tAqNR-cSdyTWnfN2LEGCPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
