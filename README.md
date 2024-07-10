@@ -50,3 +50,11 @@ Follow these steps to get the project running on your local machine:
 4. **Run the app**
    ```sh
     flutter run
+
+for connection use the following information: 
+
+E-mail : test1@test.com
+password: 1234567890/
+
+
+
