@@ -1,4 +1,15 @@
-part of 'post_detail_bloc.dart';
+import '../../models/post_model.dart';
 
-@immutable
-sealed class PostDetailEvent {}
+abstract class PostDetailEvent {}
+
+class UpdatePostDetail extends PostDetailEvent {
+  final Post post;
+
+  UpdatePostDetail(this.post);
+}
+
+class DeletePostDetail extends PostDetailEvent {
+  final Post postId;
+
+  DeletePostDetail(this.postId);
+}

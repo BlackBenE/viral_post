@@ -1,32 +1,33 @@
 import '../../models/post_model.dart';
 
-enum PostDetailStatus {
+enum AllPostsStatus {
   initial,
-  loading,
   success,
   error,
-  updating,
-  deleting,
-}class PostDetailState {
-  final PostDetailStatus status;
+  loading,
+  postSelected,
+}
+
+class AllPostsState {
+  final AllPostsStatus status;
   final List<Post> posts;
   final Post? selectedPost;
   final String? errorMessage;
 
-  PostDetailState({
-    this.status = PostDetailStatus.initial,
+  AllPostsState({
+    this.status = AllPostsStatus.initial,
     this.posts = const [],
     this.selectedPost,
     this.errorMessage,
   });
 
-  PostDetailState copyWith({
-    PostDetailStatus? status,
+  AllPostsState copyWith({
+    AllPostsStatus? status,
     List<Post>? posts,
     Post? selectedPost,
     String? errorMessage,
   }) {
-    return PostDetailState(
+    return AllPostsState(
       status: status ?? this.status,
       posts: posts ?? this.posts,
       selectedPost: selectedPost ?? this.selectedPost,
